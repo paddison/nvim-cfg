@@ -11,7 +11,7 @@ end)
 -- lspconfig.rust_analyzer.setup({})
 
 -- if we're happy with default values, we can just do this though:
-lsp_zero.setup_servers({ 'rust_analyzer', 'clangd' })
+lsp_zero.setup_servers({ 'rust_analyzer', 'clangd', 'pyright', 'tsserver' })
 
 -- configure the keybindings
 local cmp = require('cmp')

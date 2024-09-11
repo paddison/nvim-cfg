@@ -1,11 +1,11 @@
-local current = 'catppuccin'
+local current = 'github_dark'
 
 -- rose-pine colorscheme
 local rp = require('rose-pine')
 
 if rp then 
 	rp.setup({
-		variant = 'dawn'
+		variant = 'moon'
 	})
 end
 
@@ -18,7 +18,13 @@ if od then
     })
 end
 
+-- gruvbox
+local gb = require('gruvbox')
+
 local nord = require('nordic')
+
+local github = require('github-theme')
+
 
 if nord then 
     nord.setup({
